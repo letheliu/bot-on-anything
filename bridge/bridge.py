@@ -2,6 +2,7 @@ from model import model_factory
 import config
 from plugins.event import Event, EventContext
 from plugins.plugin_manager import PluginManager
+from common.log import logger
 
 
 class Bridge(object):
