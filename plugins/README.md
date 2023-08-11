@@ -1,34 +1,7 @@
 # 简介
 
 按 **[chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat/tree/master/plugins)** 插件的思路对 **bot-on-anything** 进行插件化，期望能实现插件的共享使用，但是由于两个项目的架构存在较大差异，只能尽最大可能兼容 **[chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat/tree/master/plugins)** 的插件，部分功能还需进行适配。
-添加了 [midjourney-proxy](https://github.com/novicezk/midjourney-proxy)3.x插件。
 
-# 主要功能
-
-- [x] 支持[chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)的全功能
-- [x] 支持MJ的Imagine操作
-- [x] 支持MJ的Zoom(图片变焦)、Pan(焦点移动) 等功能
-- [x] 支持MJ的Describe(图生文) 指令和相关动作
-- [x] 支持MJ的Shorten 指令和相关动作
-- [x] 支持MJ的图片压缩发送
-
-# 使用示例
-
-①GPT对话
-
-<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/chat.png" alt="GPT对话"/>
-
-②查看功能
-
-<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/help.png" alt="查看功能"/>
-
-③MJ绘图
-
-<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/imagine.png" alt="MJ绘图"/>
-
-④MJ操作
-
-<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/up.png" alt="MJ操作"/>
  
 ## **插件监听的事件：**
 

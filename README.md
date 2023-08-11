@@ -2,12 +2,15 @@
 
 将 **AI模型** 接入各类 **消息应用**，开发者通过轻量配置即可在二者之间选择一条连线，运行起一个智能对话机器人，在一个项目中轻松完成多条链路的切换。该架构扩展性强，每接入一个应用可复用已有的算法能力，同样每接入一个模型也可作用于所有应用之上。
 
+在原仓库基础上添加了 [midjourney-proxy](https://github.com/novicezk/midjourney-proxy)3.x插件。
+
 **模型：**
 
  - [x] [ChatGPT (gpt-3.5/4.0)](https://github.com/zhayujie/bot-on-anything#1-chatgpt)
  - [x] [GPT-3.0](https://github.com/zhayujie/bot-on-anything#2gpt-30)
  - [x] [New Bing](https://github.com/zhayujie/bot-on-anything#4newbing)
  - [x] [Google Bard](https://github.com/zhayujie/bot-on-anything#5bard)
+ - [x] [Midjourney] (https://github.com/novicezk/midjourney-proxy)
 
 **应用：**
 
@@ -637,6 +640,32 @@ pip3 install requests flask
 
 + `clear_memory_commands`: 对话内指令，主动清空前文记忆，字符串数组可自定义指令别名。
   + default: ["#清除记忆"]
+
+# MJ插件的主要功能
+
+- [x] 支持MJ的Imagine操作
+- [x] 支持MJ的Zoom(图片变焦)、Pan(焦点移动) 等功能
+- [x] 支持MJ的Describe(图生文) 指令和相关动作
+- [x] 支持MJ的Shorten 指令和相关动作
+- [x] 支持MJ的图片压缩发送
+
+# 使用示例
+
+①GPT对话
+
+<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/chat.png" alt="GPT对话"/>
+
+②查看功能
+
+<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/help.png" alt="查看功能"/>
+
+③MJ绘图
+
+<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/imagine.png" alt="MJ绘图"/>
+
+④MJ操作
+
+<img src="https://raw.githubusercontent.com/litter-coder/wechat-ai/main/docs/images/up.png" alt="MJ操作"/>
 
 # 教程
 
